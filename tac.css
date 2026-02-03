@@ -1,0 +1,33 @@
+.top {
+  position: sticky;
+  top: 0;
+  background-color: #0f172a; /* dark navy */
+  color: #ffffff;
+  z-index: 1000;
+  margin: 0 auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #f8fafc; /* light */
+  color: #1e293b;
+
+  overflow-x: hidden;
+}
+.imp{
+    margin-top: 0.7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+form{
+     margin-top: 0.7rem;
+    position: relative;
+    left: 20vw;
+}
+.gameg{
+text-align: center;
+}
